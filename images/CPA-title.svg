@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1395"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="CPA-title.svg"
+   inkscape:export-filename="/home/sven/Dokumente/prog/github/cpa-documentation/images/CPA-title.png"
+   inkscape:export-xdpi="13.5"
+   inkscape:export-ydpi="13.5">
+  <defs
+     id="defs1389">
+    <linearGradient
+       osb:paint="gradient"
+       id="linearGradient2029">
+      <stop
+         id="stop2039"
+         offset="0"
+         style="stop-color:#d46d00;stop-opacity:1;" />
+      <stop
+         id="stop2041"
+         offset="1"
+         style="stop-color:#000000;stop-opacity:0;" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient2029-0"
+       osb:paint="gradient">
+      <stop
+         style="stop-color:#356d00;stop-opacity:1;"
+         offset="0"
+         id="stop2025" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop2027" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2029"
+       id="linearGradient2037"
+       gradientUnits="userSpaceOnUse"
+       x1="88.351196"
+       y1="86.389374"
+       x2="93.332802"
+       y2="86.389374" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="100.12925"
+     inkscape:cy="356.66959"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1860"
+     inkscape:window-height="1049"
+     inkscape:window-x="60"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata1392">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="102.43155"
+       y="179.82738"
+       id="text2017"><tspan
+         sodipodi:role="line"
+         id="tspan2015"
+         x="102.43155"
+         y="179.82738"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.57777786px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332">CORONA</tspan><tspan
+         sodipodi:role="line"
+         x="102.43155"
+         y="208.04961"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.57777786px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan2019">PARTY-APP</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:url(#linearGradient2037);fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="87.3125"
+       y="90.247017"
+       id="text2023"><tspan
+         sodipodi:role="line"
+         id="tspan2021"
+         x="87.3125"
+         y="99.610786"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:url(#linearGradient2037);fill-opacity:1;fill-rule:nonzero;stroke-width:0.26458332" /></text>
+    <circle
+       style="fill:#ff6600;fill-opacity:1;fill-rule:nonzero;stroke-width:0.26458332"
+       id="path2044"
+       cx="104.32143"
+       cy="98.562492"
+       r="46.49107" />
+    <circle
+       style="fill:#ffb380;fill-opacity:1;fill-rule:nonzero;stroke-width:0.26458332"
+       id="path2048"
+       cx="101.10864"
+       cy="84.010414"
+       r="20.599701" />
+    <rect
+       style="fill:#ffe6d5;fill-opacity:1;fill-rule:nonzero;stroke-width:0.24852066"
+       id="rect2050"
+       width="14.538652"
+       height="70.276711"
+       x="80.600647"
+       y="63.788689" />
+    <g
+       id="g2077"
+       transform="translate(-31.537804,-54.790253)">
+      <rect
+         y="137.49405"
+         x="152.70238"
+         height="3.7797618"
+         width="7.5595236"
+         id="rect2071"
+         style="fill:#ffb380;fill-opacity:1;fill-rule:nonzero;stroke-width:0.26458332" />
+      <circle
+         r="4.299479"
+         cy="139.33669"
+         cx="162.955"
+         id="path2073"
+         style="fill:#ffb380;fill-opacity:1;fill-rule:nonzero;stroke-width:0.35407475" />
+    </g>
+    <g
+       id="g2077-6"
+       transform="rotate(34.800152,206.94251,62.308814)">
+      <rect
+         y="137.49405"
+         x="152.70238"
+         height="3.7797618"
+         width="7.5595236"
+         id="rect2071-0"
+         style="fill:#ffb380;fill-opacity:1;fill-rule:nonzero;stroke-width:0.26458332" />
+      <circle
+         r="4.299479"
+         cy="139.33669"
+         cx="162.955"
+         id="path2073-9"
+         style="fill:#ffb380;fill-opacity:1;fill-rule:nonzero;stroke-width:0.35407475" />
+    </g>
+    <g
+       id="g2077-5"
+       transform="rotate(60,164.28823,84.209004)">
+      <rect
+         y="137.49405"
+         x="152.70238"
+         height="3.7797618"
+         width="7.5595236"
+         id="rect2071-9"
+         style="fill:#ffb380;fill-opacity:1;fill-rule:nonzero;stroke-width:0.26458332" />
+      <circle
+         r="4.299479"
+         cy="139.33669"
+         cx="162.955"
+         id="path2073-7"
+         style="fill:#ffb380;fill-opacity:1;fill-rule:nonzero;stroke-width:0.35407475" />
+    </g>
+    <g
+       id="g2077-8"
+       transform="rotate(90,145.0822,96.08418)">
+      <rect
+         y="137.49405"
+         x="152.70238"
+         height="3.7797618"
+         width="7.5595236"
+         id="rect2071-5"
+         style="fill:#ffb380;fill-opacity:1;fill-rule:nonzero;stroke-width:0.26458332" />
+      <circle
+         r="4.299479"
+         cy="139.33669"
+         cx="162.955"
+         id="path2073-3"
+         style="fill:#ffb380;fill-opacity:1;fill-rule:nonzero;stroke-width:0.35407475" />
+    </g>
+    <g
+       id="g2077-3"
+       transform="rotate(-45,52.64399,148.80271)">
+      <rect
+         y="137.49405"
+         x="152.70238"
+         height="3.7797618"
+         width="7.5595236"
+         id="rect2071-8"
+         style="fill:#ffb380;fill-opacity:1;fill-rule:nonzero;stroke-width:0.26458332" />
+      <circle
+         r="4.299479"
+         cy="139.33669"
+         cx="162.955"
+         id="path2073-37"
+         style="fill:#ffb380;fill-opacity:1;fill-rule:nonzero;stroke-width:0.35407475" />
+    </g>
+  </g>
+</svg>

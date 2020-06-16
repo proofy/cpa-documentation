@@ -20,7 +20,7 @@
 HINWEIS: Dieses Scoping-Dokument ist auch [auf Englisch](../scoping_document.md) verfügbar. 
 
 # EINLEITUNG
-Ziel der Corona-Warn-App ist es, SARS-CoV-2-Infektionsketten schnellstmöglich zu erkennen und zu durchbrechen. Personen sollen zuverlässig und schnell über Begegnungen mit anderen infizierten Personen und damit mögliche Übertragungen des Virus informiert werden, damit sie sich freiwillig isolieren können, um damit zu einer Eindämmung der SARS-CoV-2-Pandemie beizutragen.
+Ziel der Corona-Party-App ist es, SARS-CoV-2-Infektionsketten schnellstmöglich zu erkennen und zu durchbrechen. Personen sollen zuverlässig und schnell über Begegnungen mit anderen infizierten Personen und damit mögliche Übertragungen des Virus informiert werden, damit sie sich freiwillig isolieren können, um damit zu einer Eindämmung der SARS-CoV-2-Pandemie beizutragen.
 
 Dieses Dokument beschreibt die funktionalen Anforderungen an die Gestaltung der App aus einer fachlichen und prozessualen Sicht. Die Beschreibung ist in der aktuellen Version inhaltlich auf das erste Release begrenzt und eine initiale Version.
 
@@ -102,7 +102,7 @@ Die Funktionen der App sind in Prozessphasen der Nutzung (mit direktem Bezug zur
 | 10 | Content-Management | Zur Anpassung und Aktualisierung von Inhalten in der App (Texte, Links, Hotlines etc.)
 
 ## Übersicht der User Stories
-Die Anforderungen an die Corona-Warn-App, die den fachlichen Umfang der Anwendung definieren, sind nachfolgend in der üblichen Form aus Sicht der nutzenden Personen formuliert, sofern nicht anders angegeben:
+Die Anforderungen an die Corona-Party-App, die den fachlichen Umfang der Anwendung definieren, sind nachfolgend in der üblichen Form aus Sicht der nutzenden Personen formuliert, sofern nicht anders angegeben:
 
 _„Als &lt;Stakeholder&gt; möchte ich &lt;Handlung durchführen&gt;, um &lt;gewünschtes Ergebnis zu erzielen&gt;.“_
 
@@ -151,8 +151,8 @@ Die zugehörigen Akzeptanzkriterien ergänzen die Spezifikation der Anforderunge
 ### Auslösen einer Warnung
 | # User Story ID | User Story | Akzeptanzkriterien |
 |-----------------|------------|--------------------|
-| E06.01          | Als Person, die die App nutzt, möchte ich einen vom medizinischen Fachpersonal oder Test-Center ausgehändigten QR-Code scannen können, damit mir später das Testergebnis in der Corona-Warn-App zur Verfügung gestellt werden kann. | 1. Ein auf dem Flyer des medizinischen Fachpersonals oder Test-Centers vorhandener QR-Code kann mit der Warn-App gescannt werden. <hr/> 2. Erklärungstext wird angezeigt.
-| E06.02          | Als Person, die die App nutzt, möchte ich innerhalb der Corona-Warn-App informiert werden, sobald ein Testergebnis verfügbar ist. | 1. Eine Benachrichtigung informiert lediglich über Neuigkeiten in der App. Das Testergebnis selbst kann nur in der App eingesehen werden. <hr/> 2. Die Benachrichtigung enthält explizit nicht das Ergebnis positiv oder negativ.
+| E06.01          | Als Person, die die App nutzt, möchte ich einen vom medizinischen Fachpersonal oder Test-Center ausgehändigten QR-Code scannen können, damit mir später das Testergebnis in der Corona-Party-App zur Verfügung gestellt werden kann. | 1. Ein auf dem Flyer des medizinischen Fachpersonals oder Test-Centers vorhandener QR-Code kann mit der Warn-App gescannt werden. <hr/> 2. Erklärungstext wird angezeigt.
+| E06.02          | Als Person, die die App nutzt, möchte ich innerhalb der Corona-Party-App informiert werden, sobald ein Testergebnis verfügbar ist. | 1. Eine Benachrichtigung informiert lediglich über Neuigkeiten in der App. Das Testergebnis selbst kann nur in der App eingesehen werden. <hr/> 2. Die Benachrichtigung enthält explizit nicht das Ergebnis positiv oder negativ.
 | E06.03          | Als Person, die die App nutzt, möchte ich, dass bei Vorliegen meines positiven Testergebnisses nach meiner Zustimmung die pseudonymisierten IDs, auf deren Basis ich an den vergangenen Tagen für andere Personen sichtbar war, an den Warn-Server übermittelt werden, damit Kontaktpersonen durch ihre Apps gewarnt werden können. | 1. IDs können pseudonymisiert an den Warn-Server übermittelt werden. <hr/> 2. Die Übermittlung ist nur möglich, sofern zuvor eine Verifikation erfolgreich durchgeführt wurde. Der Verifikationsserver und die Hotline zum Telefon-TAN Verfahren stellen dies sicher. <hr/> 3. Die Übermittlung ist nur möglich, sofern die Person vorher zugestimmt hat.
 | E06.04          | Als Person, die die App nutzt, möchte ich neben dem digitalen auch einen manuellen Prozess, z.B. über ein Call-Center nutzen können, damit auch ohne einen vorhandenen QR-Code die pseudonymisierten IDs, unter denen ich in den vergangenen Tagen für andere Personen sichtbar war, an den Warn-Server übermittelt werden, so dass Kontaktpersonen durch ihre Apps gewarnt werden können. | 1. Die zuständige Stelle kann eine TAN generieren und diese der Person mitteilen. (Generiert wird die TAN von einem Server, nicht durch das Call-Center selbst.)
 | E06.05          | Als Person, die die App nutzt, möchte ich die Möglichkeit zur Eingabe einer TAN innerhalb der App haben, damit ich die mir telefonisch mitgeteilte TAN zur Zuordnung meines Testergebnisses zu der von mir genutzten Instanz der App nutzen kann. | 1. Die Eingabe einer TAN innerhalb der App ist möglich. <hr/> 2. Es wird überprüft und zurückgemeldet, ob die eingegebene TAN korrekt war (zu prüfen, ob technisch möglich).

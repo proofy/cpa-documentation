@@ -1,6 +1,6 @@
-# Corona-Warn-App User Interface Screens
+# Corona-Party-App User Interface Screens
 
-The design of the Corona-Warn-App combines the requirements of the German citizens, the German federal government, and the virologists with the latest technological capabilities. At the same time, it provides a user experience that is easy to understand and to follow. The design of the central overview, the usage of signal color to highlight the current risk level, as well as the explanatory illustrations ensure an intuitive consumption of the app.
+The design of the Corona-Party-App combines the requirements of the German citizens, the German federal government, and the virologists with the latest technological capabilities. At the same time, it provides a user experience that is easy to understand and to follow. The design of the central overview, the usage of signal color to highlight the current risk level, as well as the explanatory illustrations ensure an intuitive consumption of the app.
 
 We highly appreciate your feedback on these screens! Though, please, bear in mind that major changes cannot be implemented without a decision by the Ministry of Health and the Robert Koch Institute. Further documentation, e.g. about questions of accessibility, will follow soon.
 

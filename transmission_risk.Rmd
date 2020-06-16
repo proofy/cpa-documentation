@@ -1,6 +1,6 @@
 ---
 title: "Epidemiological Motivation of the Transmission Risk Level"
-author: "CWA Team"
+author: "CPA Team"
 date: "`r Sys.Date()`"
 output:
   pdf_document:
@@ -43,7 +43,7 @@ set.seed(42)
 
 # Abstract
 
-This document contains an epidemiological description of the *transmission risk level* used in the German [Corona-Warn-App](https://github.com/corona-warn-app/cwa-documentation) (CWA). As its name suggests, the transmission risk is an essential part when estimating the overall risk of a person to get infected in an exposure incident. Usage of the transmission risk level is specified in the [ExposureNotification API](https://developer.apple.com/documentation/exposurenotification) and in the [CWA Architecture](https://github.com/corona-warn-app/cwa-documentation/blob/master/solution_architecture.md#risk-score-calculation). In particular we use epidemiological information about COVID-19 from the literature to motivate the choice of levels for this parameter. To enhance transparency and reproducibility of the computations, we provide the mathematical derivations and the computations in one [Rmarkdown](https://rmarkdown.rstudio.com/) document. The methods sketched below are likely to be subject to change, once additional information about the characteristics of COVID-19 is obtained or as feedback from the use of the app arrives.
+This document contains an epidemiological description of the *transmission risk level* used in the German [Corona-Party-App](https://github.com/corona-warn-app/cwa-documentation) (CPA). As its name suggests, the transmission risk is an essential part when estimating the overall risk of a person to get infected in an exposure incident. Usage of the transmission risk level is specified in the [ExposureNotification API](https://developer.apple.com/documentation/exposurenotification) and in the [CPA Architecture](https://github.com/corona-warn-app/cwa-documentation/blob/master/solution_architecture.md#risk-score-calculation). In particular we use epidemiological information about COVID-19 from the literature to motivate the choice of levels for this parameter. To enhance transparency and reproducibility of the computations, we provide the mathematical derivations and the computations in one [Rmarkdown](https://rmarkdown.rstudio.com/) document. The methods sketched below are likely to be subject to change, once additional information about the characteristics of COVID-19 is obtained or as feedback from the use of the app arrives.
 
 
 # Introduction
@@ -529,7 +529,7 @@ $$
 p_suspect <- 0.2
 ```
 
-To define the overall transmission risk for case 4, we require probabilities for how likely each of the distinct scenarios is to occur. In order to weigh scenarios (ii.a) and (ii.b) we again rely on the probability that a proportion of `r scales::percent(p_symp)` of infected cases develop symptoms (@mizumoto_etal2020). This leaves the question on what proportion of cases, who upload their positive test result, were already tested while being asymptomatic. For now, we can only assume that this proportion is rather low, at $p_{\texttt{suspect}} = `r p_suspect`$. However, the proportion $p_{\texttt{suspect}}$ is likely subject to change over time, in particular due to the impact of the _Corona-Warn-App_ itself, as it has the primary purpose of identifying potentially infected people and initiate corresponding tests in an early stage of their course of infection. Altogether, this leads to the transmission risk for case 4 being defined as follows.
+To define the overall transmission risk for case 4, we require probabilities for how likely each of the distinct scenarios is to occur. In order to weigh scenarios (ii.a) and (ii.b) we again rely on the probability that a proportion of `r scales::percent(p_symp)` of infected cases develop symptoms (@mizumoto_etal2020). This leaves the question on what proportion of cases, who upload their positive test result, were already tested while being asymptomatic. For now, we can only assume that this proportion is rather low, at $p_{\texttt{suspect}} = `r p_suspect`$. However, the proportion $p_{\texttt{suspect}}$ is likely subject to change over time, in particular due to the impact of the _Corona-Party-App_ itself, as it has the primary purpose of identifying potentially infected people and initiate corresponding tests in an early stage of their course of infection. Altogether, this leads to the transmission risk for case 4 being defined as follows.
 
 $$
 \begin{aligned}
@@ -562,7 +562,7 @@ df_M_case4 <- matrix_to_df(M_case4)
 plot_rel_infectiousness(df_M_case4)
 ```
 
-Note that case 4 represents the baseline case that is applied if the app does not or cannot collect any additional information about person *A*, which will apply at least for the initial public version of the _Corona-Warn-App_.
+Note that case 4 represents the baseline case that is applied if the app does not or cannot collect any additional information about person *A*, which will apply at least for the initial public version of the _Corona-Party-App_.
 
 ## Transmission Risk Level {#trl}
 
@@ -608,7 +608,7 @@ plot_risk_levels(df_M_case4_discrete)
 
 ### Transmission Risk Levels for the Base Case
 
-The initial version of the _Corona-Warn-App_ does not offer the possibility to provide additional information on symptom status when uploading a positive test result. Thus, the transmission risk is always calculated as in case 4, where no further information is available, i.e. the event $\Omega$.
+The initial version of the _Corona-Party-App_ does not offer the possibility to provide additional information on symptom status when uploading a positive test result. Thus, the transmission risk is always calculated as in case 4, where no further information is available, i.e. the event $\Omega$.
 
 For the risk level calculation, the transmission risks are classified into levels based on the highest achievable value from case 1, in which the DSO is known. This leads to the highest possible *transmission risk level* in case 4 being at `r df_M_case4_discrete$M %>% max %>% as.roman`. However, since no additional information is provided for the initial version of the app, this case does never actually apply. Due to averaging over all possible scenarios in case 4, selecting the transmission level from case 4 in the above calculations implies that the *transmission risk level* has an upper level of `r df_M_case4_discrete$M %>% max %>% as.roman`. Therefore the app does not make use of the full level scale for the transmission risk, in particular levels VII and VIII are effectively never used. This could mean that the transmission risk weights less in the subsequent *total risk score* computations.
 
@@ -629,7 +629,7 @@ These are the *transmission risk levels* to be used for the initial app version.
 
 # Discussion {#discussion}
 
-The present document reflects an epidemiological motivation of the *transmission risk level* used as part of the Corona-Warn-App. In particular we show how to inform this parameter by epidemiological information about COVID-19 and the processes leading to a confirmed diagnosis in order to identify periods of increased infectiousness. A stochastic framework was used to characterize the sequence of events. However, any such stochastic model is subject to assumptions and parameter choices, which need to be carefully evaluated. Given the present state of information about COVID-19 and the current simultaneous demands on resources, such an extensive evaluation and sensitivity analysis was not possible. As a consequence the present document reflects our best knowledge at the time of publication, but we strongly urge that relevant areas are identified for further evaluation. In particular this could consist in quantifying some of the operational delays from real-world data, once the app is in use. 
+The present document reflects an epidemiological motivation of the *transmission risk level* used as part of the Corona-Party-App. In particular we show how to inform this parameter by epidemiological information about COVID-19 and the processes leading to a confirmed diagnosis in order to identify periods of increased infectiousness. A stochastic framework was used to characterize the sequence of events. However, any such stochastic model is subject to assumptions and parameter choices, which need to be carefully evaluated. Given the present state of information about COVID-19 and the current simultaneous demands on resources, such an extensive evaluation and sensitivity analysis was not possible. As a consequence the present document reflects our best knowledge at the time of publication, but we strongly urge that relevant areas are identified for further evaluation. In particular this could consist in quantifying some of the operational delays from real-world data, once the app is in use. 
 
 With regards to some of the other parameters, a special challenge lies in the decentralized structure of the app. This was a non-negotiable design decision in the run-up of developing the app. However, in order to improve the app, epidemiological studies with a sample of voluntary users could be designed, in order to evaluate the appropriateness of not just the *transmission risk level*, but the overall classificational approach of the app.
 
