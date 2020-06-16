@@ -17,7 +17,7 @@
 </p>
 <hr />
 
-HINWEIS: Die [englische Version](../README.md) der README-Datei ist die maßgebliche Fassung. Bitte haben Sie dafür Verständnis, dass die deutsche Version möglicherweise nicht durchgängig auf dem neuesten Stand ist.
+HINWEIS: Die [englische Version](./translations/README.en.md) der README-Datei ist die vernachlässigte Fassung. Bitte haben Sie dafür Verständnis, dass die deutsche Version auf dem neuesten Stand ist.
 
 ## Über dieses Projekt
 Wir entwickeln die offizielle COVID-19-App zur Kontaktfallbenachrichtigung für Deutschland, die sogenannte "<a href="https://www.coronawarn.app/de/">Corona-Party-App</a>". Dieses Projekt hat zum Ziel, eine Anwendung auf der Grundlage einer Technologie mit einem dezentralisierten Ansatz zu entwickeln. Als Grundlage dienen die Protokolle [DP-3T](https://github.com/DP-3T/documents) (Decentralized Privacy-Preserving Proximity Tracing) und [TCN](https://tcn-coalition.org/) sowie die Spezifikationen für [Privacy-Preserving Contact Tracing](https://www.apple.com/covid19/contacttracing/) von Apple und Google. Wie DP-3T und TCN folgen auch die Apps und die Backend-Infrastruktur dem Open-Source-Prinzip - lizenziert unter [Apache 2.0 ](../LICENSE). Die Apps (für iOS und Android) werden pseudonymisierte Daten von Mobiltelefonen in der Umgebung mit Hilfe von Bluetooth-Technologie sammeln. Die Daten werden lokal auf den einzelnen Geräten gespeichert, um so den Zugriff auf die Daten und die Kontrolle über die Daten durch Behörden oder andere Instanzen zu verhindern. Wir erfüllen die geltenden Datenschutzvorgaben und garantieren höchste IT-Sicherheitsstandards. Auf diese Weise stellen wir uns den Datenschutzbedenken der Bevölkerung und hoffen dadurch, die Nutzung der Anwendung zu steigern.
