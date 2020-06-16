@@ -1,5 +1,5 @@
 <p align="center">
- <a href="https://www.coronaparty.app/en/"><img src="https://raw.githubusercontent.com/proofy/cpa-documentation/master/images/CPA-title.png" width="400"></a>
+ <a href="https://www.coronaparty.app/en/"><img src="https://raw.githubusercontent.com/proofy/cpa-documentation/master/images/CPA-title.svg" width="400"></a>
 </p>
 
 <hr />
