@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="https://www.coronawarn.app/de/"><img src="https://raw.githubusercontent.com/corona-warn-app/cwa-documentation/master/images/CPA_title.png" width="400"></a>
+    <a href="https://www.coronaparty.app/de/"><img src="https://raw.githubusercontent.com/proofy/cwa-documentation/master/images/CPA-title.svg" width="400"></a>
 </p>
 
 <hr />
@@ -22,9 +22,6 @@ HINWEIS: Die [englische Version](../README.md) der README-Datei ist die maßgebl
 ## Über dieses Projekt
 Wir entwickeln die offizielle COVID-19-App zur Kontaktfallbenachrichtigung für Deutschland, die sogenannte "<a href="https://www.coronawarn.app/de/">Corona-Party-App</a>". Dieses Projekt hat zum Ziel, eine Anwendung auf der Grundlage einer Technologie mit einem dezentralisierten Ansatz zu entwickeln. Als Grundlage dienen die Protokolle [DP-3T](https://github.com/DP-3T/documents) (Decentralized Privacy-Preserving Proximity Tracing) und [TCN](https://tcn-coalition.org/) sowie die Spezifikationen für [Privacy-Preserving Contact Tracing](https://www.apple.com/covid19/contacttracing/) von Apple und Google. Wie DP-3T und TCN folgen auch die Apps und die Backend-Infrastruktur dem Open-Source-Prinzip - lizenziert unter [Apache 2.0 ](../LICENSE). Die Apps (für iOS und Android) werden pseudonymisierte Daten von Mobiltelefonen in der Umgebung mit Hilfe von Bluetooth-Technologie sammeln. Die Daten werden lokal auf den einzelnen Geräten gespeichert, um so den Zugriff auf die Daten und die Kontrolle über die Daten durch Behörden oder andere Instanzen zu verhindern. Wir erfüllen die geltenden Datenschutzvorgaben und garantieren höchste IT-Sicherheitsstandards. Auf diese Weise stellen wir uns den Datenschutzbedenken der Bevölkerung und hoffen dadurch, die Nutzung der Anwendung zu steigern.
 
-## Wer wir sind
-
-Die deutsche Regierung hat SAP und die Deutsche Telekom beauftragt, die Corona-Party-App für Deutschland als Open-Source-Software zu entwickeln. Die Deutsche Telekom stellt das Netzwerk und die Mobiltechnologie zur Verfügung und wird für den sicheren, skalierbaren und stabilen Betrieb des Backends der App sorgen. SAP entwickelt die App, das zugehörige Framework und die zugrundeliegende Plattform. Das bedeutet also, dass Entwicklungsteams sowohl von SAP als auch der Deutschen Telekom zu diesem Projekt beitragen. Open Source bedeutet in diesem Fall, dass wir es allen Interessierten ermöglichen und sie sogar dazu ermutigen, an dem Projekt teilzunehmen und Teil der Entwicklungscommunity zu werden.
 
 ## Danksagungen
 
@@ -40,26 +37,26 @@ Dieses Projekt hat den [Contributor Covenant](https://www.contributor-covenant.o
 
 ## Arbeitssprache
 
-Wir entwickeln diese Anwendung für Deutschland. Wir möchten so offen und transparent wie möglich sein, auch für Interessierte in der globalen Entwicklungscommunity, die nicht Deutsch sprechen. Daher wird sämtlicher Inhalt vor allem auf _Englisch_ zur Verfügung gestellt. Wir bitten auch alle Interessierten, Englisch als Arbeitssprache zu verwenden, etwa für Kommentare im Code, für die Dokumentation oder wenn Sie uns Anfragen senden. Die Anwendung selbst, die zugehörige Dokumentation und sämtlicher Inhalt für diejenigen, welche die Anwendungen nutzen, werden selbstverständlich auf Deutsch (und möglicherweise auch andere Sprachen) zur Verfügung gestellt. Wir werden auch versuchen, Entwicklungsdokumentation auf Deutsch zur Verfügung zu stellen, aber wir bitten um Verständnis dafür, dass es nur mit Englisch als der _Lingua Franca_ der globalen Entwicklungscommunity möglich sein wird, bei der Entwicklung dieser Anwendung mit höchstmöglicher Effizienz zu arbeiten.
+Wir entwickeln diese Anwendung für Deutschland. Wir möchten so offen und transparent wie möglich sein, auch für Interessierte in der globalen Entwicklungscommunity, die nicht Deutsch sprechen. Daher wird sämtlicher Inhalt vor allem auf _Englisch_ zur Verfügung gestellt, der durch Deepl übersetzt werden konnte Wir bitten auch alle Interessierten, Deutsch als Arbeitssprache zu verwenden, etwa für Kommentare im Code, für die Dokumentation oder wenn Sie uns Anfragen senden. Die Anwendung selbst, die zugehörige Dokumentation und sämtlicher Inhalt für diejenigen, welche die Anwendungen nutzen, werden selbstverständlich auf Deutsch (und möglicherweise auch andere Sprachen) zur Verfügung gestellt. 
 
 ## Unsere Dokumentation
 
 Dieses Repository enthält die Entwicklungsdokumentation und zugehörige Inhalte.
 
 ### Projektumfang (Scoping-Dokument)
-Der Projektumfang wurde gemeinsam von der Deutschen Telekom AG sowie der SAP SE als Auftragnehmer und der deutschen Bundesregierung sowie dem Robert Koch-Institut als Auftraggeber festgelegt. Der Projektumfang kann sich im Laufe der Zeit ändern, wenn neue Anforderungen einbezogen werden müssen oder wenn sich bestehende Anforderungen ändern. Wir begrüßen Rückmeldungen zu allen Bestandteilen dieses Dokuments zum Projektumfang. Allerdings müssen zusätzliche Funktionen oder andere inhaltliche Änderungen, die über das Beheben von Grammatik- oder Schreibfehlern hinausgehen, zwischen den Verantwortlichen abgestimmt werden, bevor sie in das Dokument aufgenommen werden können. Vielen Dank für Ihr Verständnis.
+Der Projektumfang kann sich im Laufe der Zeit ändern, wenn neue Anforderungen einbezogen werden müssen oder wenn sich bestehende Anforderungen ändern. Wir begrüßen Rückmeldungen zu allen Bestandteilen dieses Dokuments zum Projektumfang. Allerdings müssen zusätzliche Funktionen oder andere inhaltliche Änderungen, die über das Beheben von Grammatik- oder Schreibfehlern hinausgehen, zwischen den Verantwortlichen abgestimmt werden, bevor sie in das Dokument aufgenommen werden können. Vielen Dank für Ihr Verständnis.
 - [Corona-Party-App - Scoping-Dokument](scoping_document.de.md)
 
 ### Technische Dokumentation
 Die technischen Dokumente sind für ein technisches Publikum bestimmt und repräsentieren den neuesten Stand der Architektur. Die Lösungsarchitektur und die Konzepte können sich im Laufe der Zeit ändern, da sich externe Abhängigkeiten (z.B. das von Apple/Google bereitgestellte Framework) noch immer ändern und neue Anforderungen aufgenommen werden müssen oder sich bestehende ändern. Wir freuen uns über Rückmeldungen zu allen Elementen dieser technischen Dokumente. 
 
 * [Prüfsteine für die Beurteilung von "Contact Tracing"-Apps](pruefsteine.de.md)
-* [Wie ermittelt die Corona-Party-App ein erhöhtes Risiko?](cwa-risk-assessment.de.md)
+* [Wie ermittelt die Corona-Party-App einE erhöhte cHANCE?](cwa-risk-assessment.de.md)
 * [Corona-Party-App Datenschutz-Folgeabschätzung/DSFA (PDF)](https://www.coronawarn.app/assets/documents/cwa-datenschutz-folgenabschaetzung.pdf), [DSFA Anlage 1](https://www.coronawarn.app/assets/documents/cwa-datenschutz-folgenabschaetzung-anlage1.pdf), [DSFA Anlage 2](https://www.coronawarn.app/assets/documents/cwa-datenschutz-folgenabschaetzung-anlage2.pdf), [DSFA Anlage 3](https://www.coronawarn.app/assets/documents/cwa-datenschutz-folgenabschaetzung-anlage3.pdf), [DSFA Anlage 4](https://www.coronawarn.app/assets/documents/cwa-datenschutz-folgenabschaetzung-anlage4.pdf), [DSFA Anlage 5](https://www.coronawarn.app/assets/documents/cwa-datenschutz-folgenabschaetzung-anlage5.pdf)
 
 ## Lizenzierung
 
-Copyright (c) 2020 Deutsche Telekom AG und SAP SE oder ein SAP-Konzernunternehmen.
+Base Code Copyright (c) 2020 Deutsche Telekom AG und SAP SE oder ein SAP-Konzernunternehmen.
 
 Lizenziert unter **Apache-Lizenz, Version 2.0** (die "Lizenz"). Sie dürfen diese Datei ausschließlich im Einklang mit der Lizenz verwenden.
 
